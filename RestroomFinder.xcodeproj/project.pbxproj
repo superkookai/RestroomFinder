@@ -6,17 +6,44 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		EF4F26792DB742AA005585DF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF4F26762DB742AA005585DF /* ContentView.swift */; };
+		EF4F267A2DB742AA005585DF /* RestroomFinderApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF4F26772DB742AA005585DF /* RestroomFinderApp.swift */; };
+		EF4F267B2DB742AA005585DF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF4F26752DB742AA005585DF /* Assets.xcassets */; };
+		EF4F267E2DB742DD005585DF /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF4F267D2DB742DD005585DF /* LocationManager.swift */; };
+		EF4F26812DB743D3005585DF /* MKCoordinateRegion+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF4F26802DB743D3005585DF /* MKCoordinateRegion+Extensions.swift */; };
+		EF4F26842DB74425005585DF /* ActionButtons.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF4F26832DB74425005585DF /* ActionButtons.swift */; };
+		EF4F26872DB744A2005585DF /* Restroom.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF4F26862DB744A2005585DF /* Restroom.swift */; };
+		EF4F268A2DB748B9005585DF /* RestroomClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF4F26892DB748B9005585DF /* RestroomClient.swift */; };
+		EF4F268D2DB74B8B005585DF /* HTTPClientKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF4F268C2DB74B8B005585DF /* HTTPClientKey.swift */; };
+		EF4F26902DB74E80005585DF /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF4F268F2DB74E80005585DF /* Constants.swift */; };
+		EF4F26922DB75545005585DF /* HTTPClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF4F26912DB75545005585DF /* HTTPClient.swift */; };
+		EF4F26942DB755EB005585DF /* MockRestroomClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF4F26932DB755EB005585DF /* MockRestroomClient.swift */; };
+		EF4F26962DB75687005585DF /* restrooms.json in Resources */ = {isa = PBXBuildFile; fileRef = EF4F26952DB75687005585DF /* restrooms.json */; };
+		EF4F26982DB756D0005585DF /* PreviewData.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF4F26972DB756D0005585DF /* PreviewData.swift */; };
+		EF4F269A2DB76745005585DF /* MapCameraPosition+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF4F26992DB76745005585DF /* MapCameraPosition+Ext.swift */; };
+		EF4F269C2DB76D86005585DF /* RestroomDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF4F269B2DB76D86005585DF /* RestroomDetailView.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		EF4F26672DB7429F005585DF /* RestroomFinder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RestroomFinder.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF4F26752DB742AA005585DF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EF4F26762DB742AA005585DF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		EF4F26772DB742AA005585DF /* RestroomFinderApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestroomFinderApp.swift; sourceTree = "<group>"; };
+		EF4F267D2DB742DD005585DF /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
+		EF4F26802DB743D3005585DF /* MKCoordinateRegion+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MKCoordinateRegion+Extensions.swift"; sourceTree = "<group>"; };
+		EF4F26832DB74425005585DF /* ActionButtons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionButtons.swift; sourceTree = "<group>"; };
+		EF4F26862DB744A2005585DF /* Restroom.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Restroom.swift; sourceTree = "<group>"; };
+		EF4F26892DB748B9005585DF /* RestroomClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestroomClient.swift; sourceTree = "<group>"; };
+		EF4F268C2DB74B8B005585DF /* HTTPClientKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPClientKey.swift; sourceTree = "<group>"; };
+		EF4F268F2DB74E80005585DF /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		EF4F26912DB75545005585DF /* HTTPClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPClient.swift; sourceTree = "<group>"; };
+		EF4F26932DB755EB005585DF /* MockRestroomClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockRestroomClient.swift; sourceTree = "<group>"; };
+		EF4F26952DB75687005585DF /* restrooms.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = restrooms.json; sourceTree = "<group>"; };
+		EF4F26972DB756D0005585DF /* PreviewData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewData.swift; sourceTree = "<group>"; };
+		EF4F26992DB76745005585DF /* MapCameraPosition+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MapCameraPosition+Ext.swift"; sourceTree = "<group>"; };
+		EF4F269B2DB76D86005585DF /* RestroomDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestroomDetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
-
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		EF4F26692DB7429F005585DF /* RestroomFinder */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = RestroomFinder;
-			sourceTree = "<group>";
-		};
-/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		EF4F26642DB7429F005585DF /* Frameworks */ = {
@@ -32,7 +59,7 @@
 		EF4F265E2DB7429E005585DF = {
 			isa = PBXGroup;
 			children = (
-				EF4F26692DB7429F005585DF /* RestroomFinder */,
+				EF4F26782DB742AA005585DF /* RestroomFinder */,
 				EF4F26682DB7429F005585DF /* Products */,
 			);
 			sourceTree = "<group>";
@@ -43,6 +70,85 @@
 				EF4F26672DB7429F005585DF /* RestroomFinder.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		EF4F26782DB742AA005585DF /* RestroomFinder */ = {
+			isa = PBXGroup;
+			children = (
+				EF4F268E2DB74E69005585DF /* Utility */,
+				EF4F268B2DB74B69005585DF /* Environment Value */,
+				EF4F26882DB748A8005585DF /* Client */,
+				EF4F26852DB7448D005585DF /* Model */,
+				EF4F26822DB74419005585DF /* View */,
+				EF4F267F2DB743C2005585DF /* Extension */,
+				EF4F267C2DB742B7005585DF /* Manager */,
+				EF4F26762DB742AA005585DF /* ContentView.swift */,
+				EF4F26772DB742AA005585DF /* RestroomFinderApp.swift */,
+				EF4F26752DB742AA005585DF /* Assets.xcassets */,
+			);
+			path = RestroomFinder;
+			sourceTree = "<group>";
+		};
+		EF4F267C2DB742B7005585DF /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				EF4F267D2DB742DD005585DF /* LocationManager.swift */,
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		EF4F267F2DB743C2005585DF /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				EF4F26802DB743D3005585DF /* MKCoordinateRegion+Extensions.swift */,
+				EF4F26992DB76745005585DF /* MapCameraPosition+Ext.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		EF4F26822DB74419005585DF /* View */ = {
+			isa = PBXGroup;
+			children = (
+				EF4F26832DB74425005585DF /* ActionButtons.swift */,
+				EF4F269B2DB76D86005585DF /* RestroomDetailView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		EF4F26852DB7448D005585DF /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				EF4F26862DB744A2005585DF /* Restroom.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		EF4F26882DB748A8005585DF /* Client */ = {
+			isa = PBXGroup;
+			children = (
+				EF4F26892DB748B9005585DF /* RestroomClient.swift */,
+				EF4F26912DB75545005585DF /* HTTPClient.swift */,
+				EF4F26932DB755EB005585DF /* MockRestroomClient.swift */,
+				EF4F26952DB75687005585DF /* restrooms.json */,
+				EF4F26972DB756D0005585DF /* PreviewData.swift */,
+			);
+			path = Client;
+			sourceTree = "<group>";
+		};
+		EF4F268B2DB74B69005585DF /* Environment Value */ = {
+			isa = PBXGroup;
+			children = (
+				EF4F268C2DB74B8B005585DF /* HTTPClientKey.swift */,
+			);
+			path = "Environment Value";
+			sourceTree = "<group>";
+		};
+		EF4F268E2DB74E69005585DF /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				EF4F268F2DB74E80005585DF /* Constants.swift */,
+			);
+			path = Utility;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -59,9 +165,6 @@
 			buildRules = (
 			);
 			dependencies = (
-			);
-			fileSystemSynchronizedGroups = (
-				EF4F26692DB7429F005585DF /* RestroomFinder */,
 			);
 			name = RestroomFinder;
 			packageProductDependencies = (
@@ -109,6 +212,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EF4F26962DB75687005585DF /* restrooms.json in Resources */,
+				EF4F267B2DB742AA005585DF /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -119,6 +224,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EF4F26792DB742AA005585DF /* ContentView.swift in Sources */,
+				EF4F26812DB743D3005585DF /* MKCoordinateRegion+Extensions.swift in Sources */,
+				EF4F26872DB744A2005585DF /* Restroom.swift in Sources */,
+				EF4F26842DB74425005585DF /* ActionButtons.swift in Sources */,
+				EF4F267A2DB742AA005585DF /* RestroomFinderApp.swift in Sources */,
+				EF4F267E2DB742DD005585DF /* LocationManager.swift in Sources */,
+				EF4F26922DB75545005585DF /* HTTPClient.swift in Sources */,
+				EF4F268D2DB74B8B005585DF /* HTTPClientKey.swift in Sources */,
+				EF4F26982DB756D0005585DF /* PreviewData.swift in Sources */,
+				EF4F26942DB755EB005585DF /* MockRestroomClient.swift in Sources */,
+				EF4F268A2DB748B9005585DF /* RestroomClient.swift in Sources */,
+				EF4F26902DB74E80005585DF /* Constants.swift in Sources */,
+				EF4F269C2DB76D86005585DF /* RestroomDetailView.swift in Sources */,
+				EF4F269A2DB76745005585DF /* MapCameraPosition+Ext.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -256,6 +375,8 @@
 				DEVELOPMENT_TEAM = T9MD4URZFH;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "RestroomFinder would like to access your location.";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "RestroomFinder would like to access your location.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -284,6 +405,8 @@
 				DEVELOPMENT_TEAM = T9MD4URZFH;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "RestroomFinder would like to access your location.";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "RestroomFinder would like to access your location.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
