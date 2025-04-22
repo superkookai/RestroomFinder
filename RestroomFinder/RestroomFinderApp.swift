@@ -12,6 +12,7 @@ struct RestroomFinderApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()
+                .environment(\.httpClient, RestroomClient())
         }
     }
 }

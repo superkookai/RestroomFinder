@@ -9,6 +9,9 @@ import Foundation
 import MapKit
 import Observation
 
+//MARK: - Need to set info.plist
+//Privacy - Location When In Use Usage Description
+
 enum LocationError: LocalizedError {
     case authorizationDenied
     case authorizationRestricted
